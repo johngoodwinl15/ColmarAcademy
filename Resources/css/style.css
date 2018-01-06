@@ -31,7 +31,7 @@ header{
   display: flex;
   }
 
-header ul li{
+  header ul li{
   display: inline-block;
   padding-right: 1rem;
   }
@@ -58,7 +58,6 @@ header ul li{
 /* top section  */
 .top{
   display: flex;
-
   background-color: #ccccff;
 }
 
@@ -96,7 +95,6 @@ header ul li{
 
 .middle{
   display: flex;
-  border: red solid 1px;
   padding: 2rem 0 2rem 1.5rem;
 }
 
@@ -122,13 +120,11 @@ header ul li{
 }
 
 .our-details{
-
   width: 40%;
 }
 
 .our-details .middle-right{
   display: flex;
-  border: red solid 1px;
   padding: 1rem;
 }
 
@@ -137,24 +133,19 @@ header ul li{
 }
 
 .our-details .middle-right .picture .img{
-
   height: auto;
   width: 35%;
-  border: red solid 1px;
   margin: 1rem;
   }
 
   .our-details .middle-right .picture .img img{
       display: block;
-
     width: 100%;
     height: auto;
-    border: red solid 1px;
-
     }
 
     .our-details .middle-right .text {
-    /*  display: block;*/
+    
       object-fit: contain;
       height: auto;
       width: 65%;
@@ -179,9 +170,8 @@ header ul li{
 
     .departments-top{
       display: flex;
-
       height: 100%;
-      margin: 2rem 4rem 0 4rem;
+      margin: 0 4rem;
     }
 
 
@@ -217,33 +207,28 @@ header ul li{
 
     .thesis-exhibit{
       display: flex;
-      border: red solid 1px;
       padding: 0 0 1.5rem 1.5rem;
     }
 
     .thesis-exhibit .left{
       width: 60%;
-      border: red solid 1px;
     }
 
      .thesis-exhibit .left .video video{
       width: 100%;
-
     }
 
     .thesis-exhibit .right{
       width: 40%;
-        border: red solid 1px;
-        margin-left: 1.5rem;
+      margin-left: 1.5rem;
     }
 
     .fisma{
-
+    background-color: #e6e6ff;
     }
 
     .fisma-img {
       width: 35%;
-
       margin: 1rem;
     }
 
@@ -265,12 +250,10 @@ header ul li{
 
     .thesis-exhibit .left .left-text{
       width: 100%;
-      border: red solid 1px;
     }
 
     .thesis-exhibit .right .fisma{
       display: flex;
-      border: red solid 1px;
     }
 
     .fisma-text{
@@ -283,27 +266,35 @@ header ul li{
 
     .thesis-exhibit .right .now{
       display: flex;
-      border: red solid 1px;
-    }
+      }
 
 /* footer  */
 
 footer{
   display: flex;
   justify-content: space-between;
-  border: red solid 1px;
   height: 5rem;
+  font-size: 0.75rem;
+  font-weight: 200;
 }
 
 footer li{
   display: inline-block;
   padding-right: 1.5rem;
-  border: red solid 1px;
-  }
+    }
 
+  footer a{
+    color: black;
+    text-decoration: none;
+  }
+  footer a:hover{
+    color: red;
+  }
+  footer a:visited {
+    color: purple;
+  }
   .copyright{
     padding-left: 1rem;
-    text-decoration: none;
       }
 
 /* media querie*/
@@ -353,6 +344,7 @@ footer li{
         width: 100%;
         padding: 1rem 0 1.5rem 1rem;
       }
+
       .lower .heading{
         text-align: center;
       }
@@ -369,6 +361,6 @@ footer li{
 
         .thesis-exhibit .left{
           width: 100%;
-          
         }
-          }/*end of media querie
+          }
+          /*end of media querie*/
