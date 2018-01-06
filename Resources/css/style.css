@@ -31,7 +31,7 @@ header{
   display: flex;
   }
 
-  header ul li{
+  .menu ul li{
   display: inline-block;
   padding-right: 1rem;
   }
@@ -145,7 +145,7 @@ header{
     }
 
     .our-details .middle-right .text {
-    
+
       object-fit: contain;
       height: auto;
       width: 65%;
@@ -323,11 +323,14 @@ footer li{
 
   @media only screen and (max-width: 700px){
 
-      .mobile-header ul li {
+      .mobile-header ul li{
         display:flex;
         justify-content: space-around;
         width: 100%;
               }
+      .mobile-header{
+        display: flex;
+      }
 
       .top{
         flex-wrap: wrap;
@@ -338,11 +341,15 @@ footer li{
         width: 100%;
       }
 
+      .mobile-departments{
+        display: block;
+      }
 
-      .mobile-departments  {
+      .mobile-departments ul li  {
         display: block;
         width: 100%;
         padding: 1rem 0 1.5rem 1rem;
+        text-decoration: none;
       }
 
       .lower .heading{
