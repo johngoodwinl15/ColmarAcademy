@@ -1,0 +1,374 @@
+html{
+  font-size: 16px;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  }
+
+.main-container{
+  max-width: 75rem;
+  margin: 0 auto;
+  border: black solid 1px;
+}
+
+h2{
+  font-weight: bold;
+}
+
+/* header*/
+header{
+  display:flex;
+  justify-content: space-between;
+  height: 4rem;
+}
+
+.mobile-header{
+  display: none;
+}
+
+.logo-container{
+  display: flex;
+  }
+
+header ul li{
+  display: inline-block;
+  padding-right: 1rem;
+  }
+  header a{
+    color: black;
+    text-decoration: none;
+  }
+  header a:hover{
+    color: red;
+  }
+  header a:visited {
+    color: purple;
+  }
+
+.logo{
+  height: 2rem;
+  margin:auto 0;
+  padding-left: 1.5rem;
+  }
+.logo-text{
+  align-items: center;
+}
+
+/* top section  */
+.top{
+  display: flex;
+
+  background-color: #ccccff;
+}
+
+.learn-something-img{
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.learn-something-img img{
+  width: 100%;
+}
+
+.learn-somthing-text{
+  width: 18rem;
+  margin: auto 0;
+}
+
+.form a{
+  width: 18rem;
+  background-color: #1a1aff;
+  justify-content: center;
+  padding: 0.5rem 5rem;
+  text-decoration: none;
+  color: white;
+  border: black solid 1px;
+  border-radius: 5px;
+}
+
+
+.learn-somthing-text p{
+  font-weight: bold;
+}
+
+/* middle section */
+
+.middle{
+  display: flex;
+  border: red solid 1px;
+  padding: 2rem 0 2rem 1.5rem;
+}
+
+.it-doesnt-hurt{
+  width: 60%;
+  margin-right: 1.5rem;
+}
+
+.middle .img{
+  width: 60%;
+  margin: 1rem;
+}
+
+.middle img{
+  width: 100%;
+
+}
+
+
+
+.middle .picture h2{
+
+}
+
+.our-details{
+
+  width: 40%;
+}
+
+.our-details .middle-right{
+  display: flex;
+  border: red solid 1px;
+  padding: 1rem;
+}
+
+.our-details .middle-right:last-child{
+  background-color: #e6e6ff;
+}
+
+.our-details .middle-right .picture .img{
+
+  height: auto;
+  width: 35%;
+  border: red solid 1px;
+  margin: 1rem;
+  }
+
+  .our-details .middle-right .picture .img img{
+      display: block;
+
+    width: 100%;
+    height: auto;
+    border: red solid 1px;
+
+    }
+
+    .our-details .middle-right .text {
+    /*  display: block;*/
+      object-fit: contain;
+      height: auto;
+      width: 65%;
+      padding-left: 1rem;
+      }
+
+      .our-details-mobile{
+        display: none;
+      }
+
+    /* start learning lower section */
+
+    .lower{
+      background-color: #e6e6ff;
+      height: 100%;
+    }
+
+    .lower .heading{
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    .departments-top{
+      display: flex;
+
+      height: 100%;
+      margin: 2rem 4rem 0 4rem;
+    }
+
+
+    .departments-bottom{
+      display: flex;
+
+      margin: 2rem 4rem;
+    }
+
+    .subject{
+      height: auto;
+      width: 33%;
+      background-color: white;
+      margin: 1rem;
+      padding: 1rem 1rem 2rem 1rem;
+      }
+
+    .subject img{
+      width: 100%;
+    }
+
+    .mobile-departments{
+      display: none;
+    }
+
+
+
+    /* start thesis exhibit */
+
+    .thesis-heading{
+      text-align: center;
+    }
+
+    .thesis-exhibit{
+      display: flex;
+      border: red solid 1px;
+      padding: 0 0 1.5rem 1.5rem;
+    }
+
+    .thesis-exhibit .left{
+      width: 60%;
+      border: red solid 1px;
+    }
+
+     .thesis-exhibit .left .video video{
+      width: 100%;
+
+    }
+
+    .thesis-exhibit .right{
+      width: 40%;
+        border: red solid 1px;
+        margin-left: 1.5rem;
+    }
+
+    .fisma{
+
+    }
+
+    .fisma-img {
+      width: 35%;
+
+      margin: 1rem;
+    }
+
+    .fisma-img img{
+      width: 100%;
+    }
+
+    .now-img{
+      margin: 1rem;
+    }
+
+    .now-img {
+      width: 35%;
+    }
+
+    .now-img img{
+      width: 100%;
+      }
+
+    .thesis-exhibit .left .left-text{
+      width: 100%;
+      border: red solid 1px;
+    }
+
+    .thesis-exhibit .right .fisma{
+      display: flex;
+      border: red solid 1px;
+    }
+
+    .fisma-text{
+      width: 65%;
+    }
+
+    .now-text{
+      width: 65%;
+    }
+
+    .thesis-exhibit .right .now{
+      display: flex;
+      border: red solid 1px;
+    }
+
+/* footer  */
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  border: red solid 1px;
+  height: 5rem;
+}
+
+footer li{
+  display: inline-block;
+  padding-right: 1.5rem;
+  border: red solid 1px;
+  }
+
+  .copyright{
+    padding-left: 1rem;
+    text-decoration: none;
+      }
+
+/* media querie*/
+      /* mobile header*/
+
+      @media only screen and (max-width: 700px){
+      .menu{
+        display: none;
+        }
+        .logo-container{
+          display: none;
+        }
+      .it-doesnt-hurt{
+        display: none;
+      }
+      .lower{
+        display: none;
+      }
+      .right{
+        display: none;
+      }
+      .our-details{
+        display: none;
+      }
+}
+
+  @media only screen and (max-width: 700px){
+
+      .mobile-header ul li {
+        display:flex;
+        justify-content: space-around;
+        width: 100%;
+              }
+
+      .top{
+        flex-wrap: wrap;
+        height: auto;
+      }
+      .our-details-mobile{
+        display: block;
+        width: 100%;
+      }
+
+
+      .mobile-departments  {
+        display: block;
+        width: 100%;
+        padding: 1rem 0 1.5rem 1rem;
+      }
+      .lower .heading{
+        text-align: center;
+      }
+
+      .learn-something-img{
+        width: 100%;
+        padding: 2rem 1.5rem;
+      }
+
+        .learn-somthing-text{
+          width: 100%;
+          margin: auto 0;
+        }
+
+        .thesis-exhibit .left{
+          width: 100%;
+          
+        }
+          }/*end of media querie
